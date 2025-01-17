@@ -13,6 +13,7 @@ We will build a containerized application that simulates different aspects of ma
    - A Bash script that monitors system resources (CPU, memory, disk usage)
    - Outputs data to Amazon CloudWatch Logs
 
+
 3. **Alert System**
    - A Node.js application that reads the CloudWatch Logs and sends alerts via Amazon SNS
 
@@ -31,7 +32,7 @@ We will build a containerized application that simulates different aspects of ma
 3. **Create Dockerfiles**
    - Develop Dockerfiles for the Mission Status Service and Alert System
    - Use multi-stage builds to optimize image sizes
-
+![Screenshot (35)](https://github.com/user-attachments/assets/c2b8baf3-2b84-407c-940d-b8d62911872b)
 4. **Develop Bash Scripts**
    - Create the Resource Monitor script that sends metrics to CloudWatch
    - Write the Data Backup script, integrating with Amazon S3
